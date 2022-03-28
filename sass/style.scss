@@ -14,10 +14,7 @@ $color-bg-grey: #f7f7f7;
 
 /*Global*/
 
-.container {
-    margin-bottom: 120px;
-    margin-top: 120px;
-}
+
 .section-title {
     text-align: center;
     font-family: $font-one;
@@ -135,5 +132,19 @@ p {
     margin-right:auto;
     border: solid;
     }
+    .container {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
     
+}
+
+/*Portfolio*/
+
+.portfolio {
+    background-color:$color-bg-grey;
+    .container {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
 }
