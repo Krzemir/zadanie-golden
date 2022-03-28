@@ -70,8 +70,14 @@ p {
 /* Navigation */
    
 .menu{
-   
-    ul {
+    margin-top: 40px;
+    .logo {
+        text-decoration: none;
+        color: $color-yellow;
+        font-size: 26px;
+        font-family: $font-logo;
+    }
+       ul {
         padding: 0;
         margin: 0;
         list-style-type: none;
@@ -81,14 +87,16 @@ p {
     li {
         display: inline-block;
         margin-left: 36px;
+        a {
+            text-decoration: none;
+            color: $color-font-white;
+            font-size: 14px;
+            font-family: $font-one;
+            
+        }
     }
 
-    a {
-        text-decoration: none;
-        color: $color-font-white;
-        font-size: 14px;
-        
-    }
+  
 }
 
 
@@ -100,7 +108,7 @@ p {
     background-size: cover;
     background-attachment: fixed;
     background-color: #777777;
-    height: calc(100vh + 120px);
+    height: calc(50vh + 120px);
     margin-top: -120px;
     position: relative;
     z-index: -1;
@@ -112,7 +120,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: $color-font-white
+    color: $color-font-white;
     h1 {
         font-family: $font-two;
         font-style: italic;
