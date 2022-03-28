@@ -105,17 +105,18 @@ p {
 .splash {
     background-image: url("../images/header-bg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
-    background-color: #777777;
     height: calc(50vh + 120px);
     margin-top: -120px;
+    margin-bottom: -120px;
     position: relative;
     z-index: -1;
 }
 
 .splash-inner {
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -123,6 +124,7 @@ p {
     color: $color-font-white;
     h1 {
         font-family: $font-two;
+        font-weight: 200;
         font-style: italic;
         font-size: 40px;
     }
