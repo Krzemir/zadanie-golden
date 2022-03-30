@@ -58,15 +58,16 @@ p {
     display: inline-block;
     color: $color-font-white;
     background-color: $color-yellow;
-    width: 240px;
-    height: 65px;
+    width: 300px;
+    height: 80px;
     padding: 25px;
     border-radius: 5px;
     font-family: $font-one;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     cursor: pointer;
 }
 
@@ -74,12 +75,13 @@ p {
 /* Navigation */
    
 .menu{
-    margin-top: 40px;
+    margin-top: 60px;
     .logo {
         text-decoration: none;
         color: $color-yellow;
-        font-size: 26px;
+        font-size: 30px;
         font-family: $font-logo;
+        padding-left: 0;
     }
        ul {
         padding: 0;
@@ -90,11 +92,11 @@ p {
 
     li {
         display: inline-block;
-        margin-left: 36px;
+        margin-left: 45px;
         a {
             text-decoration: none;
             color: $color-font-white;
-            font-size: 14px;
+            font-size: 16px;
             font-family: $font-one;
             
         }
@@ -111,7 +113,7 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
-    height: calc(50vh + 120px);
+    height: calc(70vh + 120px);
     margin-top: -120px;
     margin-bottom: -120px;
     position: relative;
@@ -121,7 +123,7 @@ p {
 .splash-inner {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -130,12 +132,15 @@ p {
         font-family: $font-two;
         font-weight: 200;
         font-style: italic;
-        font-size: 40px;
+        font-size: 45px;
+        margin-bottom: 0;
+        
     }
     h2 {
         font-family: $font-one;
-        font-size: 75px;
+        font-size: 85px;
         text-transform: uppercase;
+        margin-top: 40px;
     }
 }
 
