@@ -109,7 +109,7 @@ p {
 /*Splash*/
 
 .splash {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/header-bg.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
@@ -193,6 +193,7 @@ p {
         .box { 
             background-color: $color-font-white;
             width: 330px;
+            margin: 0 auto;
         }
     }
 
@@ -244,5 +245,13 @@ p {
                     text-align: center;
                     }
                 }
+    }
+}
+
+@media (max-width: 576px) {
+    .footer .row{
+        .col-sm-8 {
+            order: -1;
+                    }  
     }
 }
